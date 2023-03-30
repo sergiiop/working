@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabajando</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    body {
+      background-color: #1f0e21;
+      color: #fff;
+    }
+
+    .font-title {
+      font-family: 'Abril Fatface', cursive;
+    }
+
+    .font-text {
+      font-family: 'Poppins', sans-serif;
+    }
+    
+    .main{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      padding: 0 1rem;
+    }
+
+    .title-page {
+      font-size: min(5rem, 10vw);
+      z-index: 2;
+    }
+
+    .title-wrapper {
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+
+    .square {
+      z-index: 1;
+      display: inline-block;
+      position: absolute;
+      width: min(4.5rem, 10vw);
+      height: min(6rem, 12vw);
+      background-color: #ec40ff;
+      left: -10px;
+      top: 2px;
+    }
+
+    .image-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      max-width: 500px;
+    }
+  </style>
+</head>
+<body>
+  <main class="main">
+    <div class="title-wrapper">
+      <span class="square"></span>
+      <h1 class="title-page font-title">
+        Sitio en construcción
+      </h1>
+    </div>
+    <div class="image-wrapper">
+      <img src="construction-amico.png" alt="">
+    </div>
+  </main>
+</body>
+</html>
